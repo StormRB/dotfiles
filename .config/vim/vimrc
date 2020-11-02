@@ -1,0 +1,13 @@
+
+" " --- Settings ig ---
+"
+syntax on
+set showmode
+set autoindent
+set number
+set hlsearch
+set ignorecase
+
+
+" Disables automatic commenting on newline:
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
