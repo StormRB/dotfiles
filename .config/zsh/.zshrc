@@ -27,5 +27,8 @@ alias poweroff='sudo poweroff'
 alias plz='sudo'
 alias nmtui='sudo nmtui'
 
+# Make pywal aply to new terminals
+(cat ~/.cache/wal/sequences &)
+
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
