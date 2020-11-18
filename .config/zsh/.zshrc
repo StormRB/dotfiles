@@ -18,7 +18,7 @@ alias df='df -h'
 alias free='free -h'
 
 # The time savers
-alias xr='xbps-remove -R'
+alias xr='sudo xbps-remove -R'
 alias la='ls -a'
 
 # The sudo bros

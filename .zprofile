@@ -6,7 +6,7 @@
 export PATH="$PATH:$(du "$HOME/.local/bin" | cut -f2 | paste -sd ':')"
 
 # Default programs:
-export EDITOR="nvim"
+export EDITOR="vim"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
 export READER="firefox"
@@ -33,8 +33,6 @@ export GOPATH="${XDG_DATA_HOME:-$HOME/.local/share}/go"
 export ANSIBLE_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/ansible/ansible.cfg"
 export UNISON="${XDG_DATA_HOME:-$HOME/.local/share}/unison"
 export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
-export VIMINIT='source $MYVIMRC'
-export MYVIMRC='~/.config/vim/vimrc'
 
 
  #Other program settings:
